@@ -27,10 +27,10 @@ function destructivelyAppendKitten(name) {
                                   return x
                                     }
                                     function removeLastKitten() {
-                                      var b = kitten.slice(0, kitten.length - 1)
+                                      var b = [kitten.slice(0, kitten.length - 1)]
                                         return b
                                           }
                                           function removeFirstKitten() {
-                                             var c = kitten.slice(1)
+                                             var c = [kitten.slice(1)]
                                               return c
                                                 }
