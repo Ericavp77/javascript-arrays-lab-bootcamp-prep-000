@@ -22,4 +22,3 @@ function destructivelyAppendKitten(name) {
                           appendKitten(name)
                             return kittens
                               }
-
