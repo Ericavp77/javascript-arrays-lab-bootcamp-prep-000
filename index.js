@@ -30,3 +30,7 @@ function destructivelyAppendKitten(name) {
                                       b = kitten.slice(0, kitten.length - 1)
                                         return b
                                           }
+                                          function removeFirstKitten() {
+                                             kitten.slice(1)
+                                              return kitten
+                                                }
